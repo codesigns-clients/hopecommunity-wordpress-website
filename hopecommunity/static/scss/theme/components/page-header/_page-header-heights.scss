@@ -1,0 +1,14 @@
+.page-header {
+	&-auto { height: auto; padding: 2rem 0; }
+	&-xs { height: 250px; }
+	&-sm { height: 300px; }
+	&-md { height: 400px; }
+	&-lg { height: 500px; }
+	&-xl { height: 600px; }
+	&-xxl { height: 700px; 
+		@include bp (lg) {
+			height: 800px;
+		}
+	}
+	&-full{ height: 100vh; }
+}

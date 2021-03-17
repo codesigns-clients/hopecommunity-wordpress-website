@@ -1,0 +1,43 @@
+/**
+ * = Sections
+ */
+
+.section {
+    position: relative;
+    padding-top: $spacer * 3;
+	padding-bottom: $spacer * 3;
+	
+	@include bp (sm) {
+		padding-top: $spacer * 5;
+		padding-bottom: $spacer * 5;
+		&-sm {
+			padding-top: $spacer * 3;
+			padding-bottom: $spacer * 3;
+		}
+		&-lg {
+			padding-top: $spacer * 6;
+			padding-bottom: $spacer * 6;
+		}
+		&-xl {
+			padding-top: $spacer * 8;
+        	padding-bottom: $spacer * 8;
+		}
+	}
+
+	@include bp (lg) {
+		padding-top: $spacer * 6;
+		padding-bottom: $spacer * 6;
+		&-sm {
+			padding-top: $spacer * 4;
+        	padding-bottom: $spacer * 4;
+		}
+		&-lg {
+			padding-top: $spacer * 8;
+        	padding-bottom: $spacer * 8;
+		}
+		&-xl {
+			padding-top: $spacer * 10;
+        	padding-bottom: $spacer * 10;
+		}
+	}
+}

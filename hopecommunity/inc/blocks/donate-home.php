@@ -1,0 +1,3 @@
+<p class="lead"><strong>To enable us to carry out the work we do, we need your support.</strong></p>
+<a class="btn btn-lg btn-outline btn-outline-white mt-4 mr-3 no-border-radius" title="Read More" href="/donate/">Read More</a>
+<a class="btn btn-lg btn-outline btn-outline-white mt-4 no-border-radius" href="https://www.gofundme.com/f/hope-community-project" title="Donate Now" target="_blank">Donate Now</a>

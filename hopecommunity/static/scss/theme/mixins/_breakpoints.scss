@@ -1,0 +1,63 @@
+// MIN WIDTH
+@mixin bp($name, $breakpoints: $grid-breakpoints) {
+	$min: breakpoint-min($name, $breakpoints);
+	@if $min {
+		@media (min-width: $min) {
+		@content;
+		}
+	} @else {
+		@content;
+	}
+}
+
+// MAX WIDTH
+@mixin bp-down($name, $breakpoints: $grid-breakpoints) {
+	$max: breakpoint-max($name, $breakpoints);
+	@if $max {
+		@media (max-width: $max) {
+		@content;
+		}
+	} @else {
+		@content;
+	}
+}
+
+// MIN & MAX WIDTH
+@mixin bp-between($lower, $upper, $breakpoints: $grid-breakpoints) {
+	$min: breakpoint-min($lower, $breakpoints);
+	$max: breakpoint-max($upper, $breakpoints);
+
+	@if $min != null and $max != null {
+		@media (min-width: $min) and (max-width: $max) {
+		@content;
+		}
+	} @else if $max == null {
+		@include bp($lower, $breakpoints) {
+		@content;
+		}
+	} @else if $min == null {
+		@include bp-down($upper, $breakpoints) {
+		@content;
+		}
+	}
+}
+
+// MIN & MAX WIDTH ONLY BP
+@mixin bp-only($name, $breakpoints: $grid-breakpoints) {
+	$min: breakpoint-min($name, $breakpoints);
+	$max: breakpoint-max($name, $breakpoints);
+
+	@if $min != null and $max != null {
+		@media (min-width: $min) and (max-width: $max) {
+		@content;
+		}
+	} @else if $max == null {
+		@include bp($name, $breakpoints) {
+		@content;
+		}
+	} @else if $min == null {
+		@include bp-down($name, $breakpoints) {
+		@content;
+		}
+	}
+}

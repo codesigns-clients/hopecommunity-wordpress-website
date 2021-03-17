@@ -1,0 +1,19 @@
+.page-header {
+	position: relative;
+	z-index: 1;
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+	flex-direction: column;
+	&-title-box {
+		position: relative;
+		z-index: 2;
+		p { font-weight: 900; text-transform: uppercase; color: #fff;}
+	}
+}
+
+@import "page-header-masks";
+@import "page-header-heights";
+@import "page-header-content";

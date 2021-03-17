@@ -1,0 +1,20 @@
+.footer a,
+.footer a:hover,
+.footer p,
+.footer li {
+	color: #ffffff;
+}
+
+.footer-contact a {
+	font-size: 1.1rem;
+}
+
+.footer svg {
+	display: block !important;
+	width: 28px !important;
+	height: 28px !important;
+}
+
+.box--transparent {
+	background-color: rgba(255, 255, 255, 0.15)
+}
