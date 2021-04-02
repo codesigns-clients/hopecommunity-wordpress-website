@@ -1,4 +1,4 @@
-	<footer class="footer text-white py-4 py-sm-5 py-md-6 bg-green">
+	<footer class="footer text-white py-4 py-sm-5 py-md-6 bg-blue">
 	
 		<div class="container-fluid container-xxl">
 
