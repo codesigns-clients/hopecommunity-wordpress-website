@@ -1,13 +1,13 @@
 <?php
 
 get_header(); ?>
-	<?php if ( have_posts() ) : ?>
-	<?php while ( have_posts() ) : the_post(); ?>
-
-	<main class="site-main">
+<?php if ( have_posts() ) : ?>
+	
+	<main class="site-main site-main--frontpage">
 
 		<?php get_template_part('inc/components/page-header'); ?>
-
+		
+		<?php while ( have_posts() ) : the_post(); ?>
 		<div class="main-content" id="main-content">
 			
 			<section class="section section-sm pb-0">
@@ -201,10 +201,11 @@ get_header(); ?>
 			<!-- // end: home--news -->
 
 		</div>
-	
+		<?php endwhile; ?>
+
 	</main>
 	<!-- end: // main -->
-	<?php endwhile; ?>
-	<?php endif; ?>
+
+<?php endif; ?>
 <?php
 get_footer();

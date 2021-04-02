@@ -4,9 +4,8 @@
  *
  * Template Name: Gallery
  */
-
 get_header(); ?>
-	<?php if ( have_posts() ) : ?>
+<?php if ( have_posts() ) : ?>
 	
 	<main class="site-main">
 
@@ -33,8 +32,10 @@ get_header(); ?>
 
 		</div>
 		<?php endwhile; ?>
+
 	</main>
 	<!-- end: // main -->
-	<?php endif; ?>
+
+<?php endif; ?>
 <?php
 get_footer();
