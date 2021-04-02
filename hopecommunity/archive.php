@@ -5,7 +5,8 @@
 
 get_header(); ?>
 	<?php if ( have_posts() ) : ?>
-	<main class="site-main">
+	
+	<main class="site-main site-main--archive">
 		
 		<div class="main-content" id="main-content">
 

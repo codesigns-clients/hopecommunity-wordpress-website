@@ -6,11 +6,12 @@
  */
 get_header(); ?>
 <?php if ( have_posts() ) : ?>
-	<?php while ( have_posts() ) : the_post(); ?>
-	<main class="main">
+
+	<main class="site-main">
 	
 		<?php get_template_part('inc/components/page-header'); ?>
 
+		<?php while ( have_posts() ) : the_post(); ?>
 		<div class="main-content" id="main-content">
 
 			<section class="section">
@@ -59,10 +60,11 @@ get_header(); ?>
 			</section>
 	
 		</div>
+		<?php endwhile; ?>
 
 	</main>
-	<?php endwhile; ?>
-</div>
+	<!-- end: // main -->
+
 <?php endif; ?>
 <?php
 get_footer();

@@ -2,10 +2,10 @@
 /**
  *    Archive Template for Posts
  */
-
 get_header(); ?>
-	<?php if ( have_posts() ) : ?>
-	<main class="main main--archive main--archive--user-forms">
+<?php if ( have_posts() ) : ?>
+	
+	<main class="site-main site-main--archive site-main--archive--user-forms">
 
 		<section class="page-header-section">
 			<div class="page-header page-header-default page-header-masked page-header-md" style="background-image: url('/wp-content/uploads/2021/01/hero.jpg');">
@@ -58,24 +58,11 @@ get_header(); ?>
 				</div>
 			</section>
 
-			<section class="section section-sm bg-light">
-				<div class="container-fluid container-xxl">
-					<div class="row">
-						<div class="col-md-7">	
-							<h2 class="h5">Sign up for email updates</h2>
-							<p>Enter your email to receive updates about Hope Community Project's work and how you can support our good causes.</p>
-							<a href="#" class="btn btn-lg bg-pink mb-3 no-border-radius no-border text-uppercase text-white" target="_blank">Sign Up</a>
-							<p class="small">Your details are safe with us. We won’t ever pass your information on to other organisations for them to market to you.</p>
-						</div>
-					</div>
-
-				</div>
-			</section>
-
 		</div>
 		
 	</main>
-	<?php endif; ?>
+	<!-- end: // main -->
+
+<?php endif; ?>
 <?php
 get_footer();
-

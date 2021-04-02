@@ -3,18 +3,18 @@
 		<div class="container-fluid container-xxl">
 
 			<div class="box--transparent mb-4 p-4 d-md-flex justify-content-sm-between footer-brand">
-				<a class="" href="/">
+				<a href="/" title="Hope Community Projects Coventry"> 
 					<img class="img-fluid mb-4" style="height: 150px;" src="/wp-content/themes/hopecommunity/static/images/logo-white.svg" alt="Hope Community Projects Logo">
 				</a>
 				<div class="footer-contact mt-4 mt-md-0">
 					<h3 class="h4 mb-4">Contact us:</h3>
 					<div class="py-3 d-flex">
 						<i class="fal fa-phone"></i> 
-						<a class="ml-3 font-weight-bold" href="tel:<?php echo telephone(get_field('phone_number', 'options')); ?>" class="telephone"><?php the_field('phone_number', 'options'); ?></a>
+						<a class="ml-3 font-weight-bold" title="Call Hope Community Projects" href="tel:<?php echo telephone(get_field('phone_number', 'options')); ?>" class="telephone"><?php the_field('phone_number', 'options'); ?></a>
 					</div>
 					<div class="py-3 d-flex">
 						<i class="fal fa-envelope"></i> 
-						<a class="ml-3 slidelink slidelink--white font-weight-bold" href="mailto:<?php the_field('email_address', 'options'); ?>" class="email">Email <?php the_field('company_name', 'options'); ?></a>
+						<a class="ml-3 slidelink slidelink--white font-weight-bold" title="Email Hope Community Projects" href="mailto:<?php the_field('email_address', 'options'); ?>" class="email">Email <?php the_field('company_name', 'options'); ?></a>
 					</div>
 				</div>
 
