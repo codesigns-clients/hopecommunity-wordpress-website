@@ -4,15 +4,14 @@
  *
  * Template Name: COVID
  */
-
 get_header(); ?>
-	<?php if ( have_posts() ) : ?>
-	<?php while ( have_posts() ) : the_post(); ?>
-
+<?php if ( have_posts() ) : ?>
+	
 	<main class="site-main">
 
 		<?php get_template_part('inc/components/page-header'); ?>
 
+		<?php while ( have_posts() ) : the_post(); ?>
 		<div class="main-content" id="main-content">
 
 			<!-- start: page-intro -->
@@ -65,10 +64,11 @@ get_header(); ?>
 			<!-- end //: donate -->
 
 		</div>
-	
+		<?php endwhile; ?>
+		
 	</main>
 	<!-- end: // main -->
-	<?php endwhile; ?>
-	<?php endif; ?>
+	
+<?php endif; ?>
 <?php
 get_footer();
