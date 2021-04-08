@@ -13,18 +13,17 @@ get_header(); ?>
 			<section class="section section-sm pb-0">
 				<div class="container-fluid container-xxl">
 					<div class="row">
-						<div class="col-12 col-md-7 pb-5" style="z-index:100">
+						<div class="col-12 col-lg-7 pb-5" style="z-index:100">
 							<h2 class="h3"><?php the_field('primary_title'); ?></h2>
 							<?php the_field('primary_content'); ?>
 							<a href="/about/" class="btn btn-lg no-border no-border-radius btn-with-arrow btn-blue text-white text-uppercase">
 								<span>Read more <i class="fal fa-arrow-right fa-xs"></i></span>
 							</a>
 						</div>
-						<div class="col-12 col-md-5">
+						<div class="col-12 col-lg-5">
 							<figure class="mb-5">
 								<img class="img-fluid" alt="" src="/wp-content/uploads/2021/02/coventry.jpg">
 							</figure>
-
 						</div>
 					</div>
 				</div>
@@ -55,8 +54,7 @@ get_header(); ?>
 
 					<div class="row justify-content-center text-center">
 						<div class="col-md-10 col-lg-8">
-							<img class="img-fluid mb-4"
-								style="height: 150px;"
+							<img class="img-fluid section-logo mb-4"
 								src="/wp-content/themes/hopecommunity/static/images/logo.svg"
 								alt="Hope Community Projects Logo">
 							<h2 class="my-4 h4"><?php the_field('homepage_boxes_title'); ?></h2>
@@ -132,8 +130,7 @@ get_header(); ?>
 
 					<div class="row justify-content-center text-center">
 						<div class="col-md-10 col-lg-8">
-							<img class="img-fluid mb-4"
-								style="height: 150px;"
+							<img class="img-fluid section-logo mb-4"
 								src="/wp-content/themes/hopecommunity/static/images/logo.svg"
 								alt="Hope Community Projects Logo">
 							<h2 class="h4">Hope Community Projects News</h2>

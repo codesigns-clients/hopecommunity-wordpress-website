@@ -17,10 +17,10 @@ get_header(); ?>
 			<!-- start: page-intro -->
 			<section class="section pb-0">
 				<div class="container-fluid container-xxl">
-					<div class="row justify-content-center align-items-center">						
+					<div class="row justify-content-center align-items-end align-items-lg-center">						
 						<div class="col-md-6 order-1 order-md-0">
 							<?php if( get_field('primary_image') ): ?>
-								<img class="img-fluid d-block mx-auto mb-5 mb-md-0" src="<?php the_field('primary_image'); ?>" />
+								<img class="img-fluid d-block mx-auto" src="<?php the_field('primary_image'); ?>" />
 							<?php endif; ?>
 						</div>
 						<div class="col-md-6 text-center order-0 order-md-1">
@@ -43,8 +43,7 @@ get_header(); ?>
 					<div class="row mb-3">
 						<div class="col-12">
 							<div class="block-title text-center">
-								<img class="img-fluid mb-4"
-									style="height: 150px;"
+								<img class="img-fluid section-logo mb-4"
 									src="/wp-content/themes/hopecommunity/static/images/logo.svg"
 									alt="Hope Community Projects Logo">
 								<h2 class="h4"><?php the_field('project_boxes_title'); ?></h2>
@@ -100,8 +99,7 @@ get_header(); ?>
 				<div class="container-fluid container-xxl">
 					<div class="row justify-content-center text-center">
 						<div class="col-md-10 col-lg-8">
-							<img class="img-fluid mb-4"
-								style="height: 150px;"
+							<img class="img-fluid section-logo mb-4"
 								src="/wp-content/themes/hopecommunity/static/images/logo.svg"
 								alt="Hope Community Projects Logo">
 							<h2 class="h4"><?php the_field('team_title'); ?></h2>

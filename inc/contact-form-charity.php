@@ -3,7 +3,7 @@
 	// Whether the title should be displayed or not (true/false)
 	'display_title' => false,
 	// Text used for the submit button
-	'submit_text' => 'Send',
+	'submit_text' => 'Send Form',
 	// Filter mode disables the success message after submission and instead displays all fields again with their submitted values.
 	'filter_mode' => false,
 	);

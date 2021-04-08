@@ -19,7 +19,7 @@ get_header(); ?>
 				<div class="container-fluid container-xxl">
 					<div class="row justify-content-center text-center mb-5">
 						<div class="col-md-10 col-lg-8">
-							<img class="img-fluid mb-4" style="height: 150px;" src="/wp-content/themes/hopecommunity/static/images/logo-grubhub.svg" alt="Hope Community Projects Logo">
+							<img class="img-fluid section-logo mb-4" src="/wp-content/themes/hopecommunity/static/images/logo-grubhub.svg" alt="Hope Community Projects Logo">
 							<h1 class="h4"><?php the_field('nursery_intro_title'); ?></h1>
 							<div class="sep bg-orange"></div>
 							<?php the_field('nursery_intro_content'); ?>
@@ -97,7 +97,7 @@ get_header(); ?>
 				<div class="container-fluid container-xxl">
 					<div class="row justify-content-center text-center">
 						<div class="col-md-10 col-lg-8">
-							<img class="img-fluid mb-4" style="height: 150px;" src="/wp-content/themes/hopecommunity/static/images/logo-grubhub.svg" alt="Hope Community Projects Logo">
+							<img class="img-fluid section-logo mb-4" src="/wp-content/themes/hopecommunity/static/images/logo-grubhub.svg" alt="Hope Community Projects Logo">
 							<h2 class="h4"><?php the_field('team_title'); ?></h2>
 							<div class="sep bg-red"></div>
 							<?php the_field('team_content'); ?>

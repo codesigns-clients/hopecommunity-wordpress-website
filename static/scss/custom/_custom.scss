@@ -63,3 +63,10 @@ header .nav-link {
 		height: auto;
 	}
 }
+
+.section-logo {
+	height: 6rem;
+	@include bp (sm) {
+		height: 8rem;
+	}
+}
