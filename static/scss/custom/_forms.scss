@@ -3,16 +3,21 @@
 	textarea {
 		border: 1px solid #ced4da;
 	}
+	.af-input.acf-input textarea {
+		font-size: 1.125rem;
+	}
 	.acf-fields>.acf-field {
 		border-top: 0;
+		padding: 15px 0;
 		input {
-			height: calc(1.5em + 0.75rem + 2px);
+			height: calc(1.5em + 1.75rem);
+			font-size: 1.125rem;
 		}
 	}
 	.acf-form-submit {
-		margin-left: 10px;	
 		button {
 			border: 0 !important;
+			width: 100%;
 			text-transform: uppercase;
 			background-color: $orange;
 			color: #fff;

@@ -16136,17 +16136,20 @@ h3 {
 .contact-form-wrapper textarea {
   border: 1px solid #ced4da;
 }
+.contact-form-wrapper .af-input.acf-input textarea {
+  font-size: 1.125rem;
+}
 .contact-form-wrapper .acf-fields > .acf-field {
   border-top: 0;
+  padding: 15px 0;
 }
 .contact-form-wrapper .acf-fields > .acf-field input {
-  height: calc(1.5em + 0.75rem + 2px);
-}
-.contact-form-wrapper .acf-form-submit {
-  margin-left: 10px;
+  height: calc(1.5em + 1.75rem);
+  font-size: 1.125rem;
 }
 .contact-form-wrapper .acf-form-submit button {
   border: 0 !important;
+  width: 100%;
   text-transform: uppercase;
   background-color: #F7941D;
   color: #fff;
