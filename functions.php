@@ -37,7 +37,7 @@ add_action( 'after_setup_theme', 'custom_theme_setup' );
 
 /** Admin Login Logo */
 function custom_login_logo() {
-	$image_url = get_template_directory_uri() . '/assets/img/logo.png'; // URL of LOGO
+	$image_url = get_template_directory_uri() . '/assets/images/logo.svg'; // URL of LOGO
 	echo '
 		<style>
 			body {
@@ -47,7 +47,7 @@ function custom_login_logo() {
 			.login #nav a {
 				color:#105aab;
 			}
-			.login h1 a { background-image: url('.$image_url.') !important; background-size: 280px 50px; width:280px; height:50px; display:block; }
+			.login h1 a { background-image: url('.$image_url.') !important; background-size: 320px 120px; width:320px; height:120px; display:block; }
 		</style>
 	';
 }

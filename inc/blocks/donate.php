@@ -4,7 +4,7 @@
 			<div class="col-md-10">
 				<div class="card">
 					<div class="card-body bg-orange text-white p-4">
-						<img class="img-fluid mb-4" style="height: 150px;" src="/wp-content/themes/hopecommunity/static/images/logo-donate-white.svg" alt="Hope Community Projects Logo">
+						<img class="img-fluid section-logo mb-4" src="/wp-content/themes/hopecommunity/assets/images/logo-donate-white.svg" alt="Hope Community Projects Logo">
 						<?php
 							if ( is_page( 5 ) ) {
 								get_template_part('inc/blocks/donate-home');

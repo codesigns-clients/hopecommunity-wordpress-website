@@ -7,21 +7,8 @@ get_header(); ?>
 	
 	<main class="site-main site-main--archive site-main--archive--user-forms">
 
-		<section class="page-header-section">
-			<div class="page-header page-header-default page-header-masked page-header-md" style="background-image: url('/wp-content/uploads/2021/01/hero.jpg');">
-				<div class="page-header-mask page-header-mask-30"></div>
-			</div>
-			<div class="page-header-title-box bg-pink py-4 py-md-5 mr-4 mr-lg-7 mt-n6">
-				<div class="container">
-					<div class="row">
-						<div class="col-12 text-center">
-							<p>Hope Community Projects Forms</p>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-
+		<?php get_template_part('inc/components/page-header-user-forms'); ?>	
+	
 		<div class="main-content" id="main-content">
 
 			<section class="section pt-4 pb-0">

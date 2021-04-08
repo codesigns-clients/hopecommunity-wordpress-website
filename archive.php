@@ -2,7 +2,6 @@
 /**
  *    Archive Template for Posts
  */
-
 get_header(); ?>
 <?php if ( have_posts() ) : ?>
 	
@@ -27,6 +26,7 @@ get_header(); ?>
 			</section>
 		
 		</div>
+
 	</main>
 	<!-- end: // main -->
 	

@@ -19,7 +19,7 @@ get_header(); ?>
 				<div class="container-fluid container-xxl">
 					<div class="row justify-content-center text-center mb-5">
 						<div class="col-md-10 col-lg-8">
-							<img class="img-fluid mb-4" style="height: 150px;" src="/wp-content/themes/hopecommunity/static/images/logo-grubhub.svg" alt="Hope Community Projects Logo">
+							<img class="img-fluid section-logo mb-4" src="/wp-content/themes/hopecommunity/assets/images/logo-grubhub.svg" alt="Hope Community Projects Logo">
 							<h1 class="h4"><?php the_field('nursery_intro_title'); ?></h1>
 							<div class="sep bg-orange"></div>
 							<?php the_field('nursery_intro_content'); ?>
@@ -55,7 +55,7 @@ get_header(); ?>
 			</section>
 			<!-- // end: your-child-matters -->
 
-			<section class="section section-xl bg--image" style="background: no-repeat center / cover url('/wp-content/themes/hopecommunity/static/images/grubhub-section-2.jpg');">
+			<section class="section section-xl bg--image" style="background: no-repeat center / cover url('/wp-content/themes/hopecommunity/assets/images/grubhub-section-2.jpg');">
 				<div class="container-fluid container-xxl py-7"></div>
 			</section>
 
@@ -74,15 +74,15 @@ get_header(); ?>
 					<div class="row mt-5 text-center">
 
 						<div class="col-sm-4 mb-5 mb-sm-0">
-							<img src="/wp-content/themes/hopecommunity/static/images/grubhub-statement-1.svg" alt="Hands" class="img-fluid" style="width: 30%;">
+							<img src="/wp-content/themes/hopecommunity/assets/images/grubhub-statement-1.svg" alt="Hands" class="img-fluid" style="width: 30%;">
 							<h6 class="mt-3">Children</h6>
 						</div>
 						<div class="col-sm-4 mb-5 mb-sm-0">
-							<img src="/wp-content/themes/hopecommunity/static/images/grubhub-statement-2.svg" alt="Hands" class="img-fluid" style="width: 30%;">
+							<img src="/wp-content/themes/hopecommunity/assets/images/grubhub-statement-2.svg" alt="Hands" class="img-fluid" style="width: 30%;">
 							<h6 class="mt-3">Learning</h6>
 						</div>
 						<div class="col-sm-4">
-							<img src="/wp-content/themes/hopecommunity/static/images/grubhub-statement-3.svg" alt="Hands" class="img-fluid" style="width: 30%;">
+							<img src="/wp-content/themes/hopecommunity/assets/images/grubhub-statement-3.svg" alt="Hands" class="img-fluid" style="width: 30%;">
 							<h6 class="mt-3">Through Play</h6>
 						</div>
 						
@@ -97,7 +97,7 @@ get_header(); ?>
 				<div class="container-fluid container-xxl">
 					<div class="row justify-content-center text-center">
 						<div class="col-md-10 col-lg-8">
-							<img class="img-fluid mb-4" style="height: 150px;" src="/wp-content/themes/hopecommunity/static/images/logo-grubhub.svg" alt="Hope Community Projects Logo">
+							<img class="img-fluid section-logo mb-4" src="/wp-content/themes/hopecommunity/assets/images/logo-grubhub.svg" alt="Hope Community Projects Logo">
 							<h2 class="h4"><?php the_field('team_title'); ?></h2>
 							<div class="sep bg-red"></div>
 							<?php the_field('team_content'); ?>
@@ -110,17 +110,14 @@ get_header(); ?>
 			<!-- start: contact-form-grubhub -->
 			<section class="section">
 				<div class="container-fluid container-xxl">
-					<div class="row justify-content-center pb-3">
-						<div class="col-lg-8">
-							<div class="d-sm-flex align-items-center">
-								<img class="img-fluid mr-4 mb-3 mb-sm-0" style="height: 120px;" src="/wp-content/themes/hopecommunity/static/images/logo-grubhub.svg" alt="Hope Community Projects Logo">
-								<div>
-									<h2 class="h4">Contact Hope Community Grubhub</h2>
-									<p class="mb-4">We look forward to hearing from you, please submit your details below and our team will get back to you.</p>
-								</div>
-							</div>
+					
+					<div class="row justify-content-center text-center pb-3">
+						<div class="col-md-6">
+							<h2 class="h4">Contact Hope Community Grubhub</h2>
+							<p class="mb-4">We look forward to hearing from you, please submit your details below and our team will get back to you.</p>
 						</div>
 					</div>
+
 					<div class="row justify-content-center">
 						<div class="col-md-8">
 							<div class="contact-form-wrapper">
