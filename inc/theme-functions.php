@@ -8,7 +8,6 @@
 /** Add support for Bootstrap Nav */
 require_once('wp-bootstrap-navwalker.php');
 
-
 /** Enqueue Scripts */
 function default_scripts() {
 

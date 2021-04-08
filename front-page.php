@@ -16,8 +16,8 @@ get_header(); ?>
 						<div class="col-12 col-md-7 pb-5" style="z-index:100">
 							<h2 class="h3"><?php the_field('primary_title'); ?></h2>
 							<?php the_field('primary_content'); ?>
-							<a href="/about/" class="btn btn-lg no-border no-border-radius btn-with-arrow btn-orange text-white text-uppercase">
-								<span>Find out more <i class="fal fa-arrow-right fa-xs"></i></span>
+							<a href="/about/" class="btn btn-lg no-border no-border-radius btn-with-arrow btn-blue text-white text-uppercase">
+								<span>Read more <i class="fal fa-arrow-right fa-xs"></i></span>
 							</a>
 						</div>
 						<div class="col-12 col-md-5">
@@ -48,6 +48,7 @@ get_header(); ?>
 			<!-- start: section-wide-with-background -->
 			<?php get_template_part('inc/components/section-wide'); ?>
 			<!-- // end: section-wide-with-background -->
+
 			<!-- start: home--our-aims -->
 			<section class="section bg-light pb-0">
 				<div class="container-fluid container-xxl">
@@ -101,10 +102,10 @@ get_header(); ?>
 
 				<div class="row align-items-center bg-blue mt-5">
 				
-					<div class="col-md-6 p-6 text-white order-1 order-md-0">
+					<div class="col-md-6 p-5 text-white order-1 order-md-0">
 						<h3>ABOUT HOPE COMMUNITY PROJECTS</h3>
 						<p>Hope Community Projects seek to offer practical support to enable opportunities for social interaction, a nursery, a holiday feeding programme, friendship, support and advice. Children and families are given the right support at the right time in the right way, by running a varied program of opportunities supporting people to build their capabilities, confidence, understanding and well-being.</p>
-						<p><a class="btn btn-outline-white btn-lg no-border-radius" href="/about" title="About Hope Community Projects">Learn more</a></p>
+						<p><a class="btn btn-outline-white btn-lg no-border-radius" href="/about" title="About Hope Community Projects">Read more</a></p>
 					</div>
 					<div class="col-md-6 bg-cover order-0 order-md-1" style="min-height:530px; background-image:url('/wp-content/uploads/2021/04/home-hope-nursery-large.jpg'); background-size:cover; background-repeat:no-repeat;"></div>
 				
@@ -112,10 +113,10 @@ get_header(); ?>
 				
 				<div class="row align-items-center bg-blue ">
 					<div class="col-md-6 bg-cover" style="min-height:530px; background-image:url('/wp-content/uploads/2021/04/home-about-hope-large.jpg'); background-size:cover; background-repeat:no-repeat;"></div>
-					<div class="col-md-6 p-6 text-white">
+					<div class="col-md-6 p-5 text-white">
 						<h3>GRUBHUB</h3>
 						<p>We believe that early intervention and excellent affordable accessible childcare forms the foundation for a good start in life. Every child and family member irrespective of ethnicity, wealth, health or ability deserve to live their best life.</p>
-						<p><a class="btn btn-outline-white btn-lg no-border-radius" href="/grubhub" title="Hope Community GrubHub">Learn more</a></p>
+						<p><a class="btn btn-outline-white btn-lg no-border-radius" href="/grubhub" title="Hope Community GrubHub">Read more</a></p>
 					</div>
 				</div>
 			</section>
@@ -150,7 +151,7 @@ get_header(); ?>
 								</div>
 								<div class="card-footer no-border-radius bg-blue">
 									<div class="btn-container text-center">
-										<a class="h5 text-white" href="/news" title="View all news">View all news</a>
+										<a class="h5 text-white text-uppercase d-block mb-0" href="/news" title="View all news">View all news</a>
 									</div>
 								</div>
 							</div>
@@ -159,7 +160,7 @@ get_header(); ?>
 							<div class="card no-border-radius h-100 no-border card--press-releases">
 								<div class="card-body px-5">
 									<h3 class="text-center mt-4 h4">Latest Press Releases</h3>
-									<div class="sep bg-green"></div>
+									<div class="sep bg-orange"></div>
 									<div class="row">
 										
 										<?php $the_query = new WP_Query( array( 'posts_per_page' => 2, )); ?>
@@ -184,9 +185,9 @@ get_header(); ?>
 										<?php endif; ?>
 									</div>
 								</div>
-								<div class="card-footer no-border-radius bg-green">
+								<div class="card-footer no-border-radius bg-orange">
 									<div class="btn-container text-center">
-										<a class="h5 text-white" href="/press-releases" title="View all press releases">View all press releases</a>
+										<a class="h5 text-white text-uppercase d-block mb-0" href="/press-releases" title="View all press releases">View all press releases</a>
 									</div>
 								</div>
 							</div>
