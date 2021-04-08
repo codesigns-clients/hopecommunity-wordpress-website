@@ -1,0 +1,65 @@
+@import "forms";
+@import "fonts";
+@import "grubhub";
+@import "footer";
+
+.no-border {
+	border: 0 !important;
+	&-radius {
+		border-radius: 0 !important;
+	}
+}
+
+.card {
+	@extend .no-border;
+}
+
+.sep {
+    width: 50px;
+    height: 7px;
+    border-radius: 50px;
+	margin: 30px auto;
+	&-left {
+		margin: 30px auto 30px 0;
+	}
+}
+
+.navbar-brand img {
+	height: 80px;
+	@include bp (md) {
+		height: 90px;
+	}
+	@include bp (lg) {
+		height: 100px;
+	}
+}
+
+header .nav-link {
+	font-size: 1.3rem;
+	font-weight: 600;
+}
+
+.card .btn-lg {
+	font-size: 0.9rem;
+	@include bp (md) {
+		font-size: 1.4rem;
+	}
+}
+
+.dropdown:hover .dropdown-menu {
+	display: block;
+}
+
+
+.card--press-releases {
+	.image img {
+		max-width: 100%;
+		height: auto;
+	}
+}
+.section--press-releases-list {
+	img {
+		max-width: 100%;
+		height: auto;
+	}
+}
