@@ -166,7 +166,7 @@ get_header(); ?>
 										<?php $the_query = new WP_Query( array( 'posts_per_page' => 2, )); ?>
 										<?php if ( $the_query->have_posts() ) : ?>
 											<?php while ( $the_query->have_posts() ) : $the_query->the_post(); ?>
-											<div class="col-6">
+											<div class="col-md-6">
 												<a href="<?php the_permalink(); ?>">
 													<div class="image mb-3">
 														<?php the_post_thumbnail(); ?>

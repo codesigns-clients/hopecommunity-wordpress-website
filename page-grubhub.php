@@ -110,17 +110,14 @@ get_header(); ?>
 			<!-- start: contact-form-grubhub -->
 			<section class="section">
 				<div class="container-fluid container-xxl">
-					<div class="row justify-content-center pb-3">
-						<div class="col-lg-8">
-							<div class="d-sm-flex align-items-center">
-								<img class="img-fluid mr-4 mb-3 mb-sm-0" style="height: 120px;" src="/wp-content/themes/hopecommunity/static/images/logo-grubhub.svg" alt="Hope Community Projects Logo">
-								<div>
-									<h2 class="h4">Contact Hope Community Grubhub</h2>
-									<p class="mb-4">We look forward to hearing from you, please submit your details below and our team will get back to you.</p>
-								</div>
-							</div>
+					
+					<div class="row justify-content-center text-center pb-3">
+						<div class="col-md-6">
+							<h2 class="h4">Contact Hope Community Grubhub</h2>
+							<p class="mb-4">We look forward to hearing from you, please submit your details below and our team will get back to you.</p>
 						</div>
 					</div>
+
 					<div class="row justify-content-center">
 						<div class="col-md-8">
 							<div class="contact-form-wrapper">

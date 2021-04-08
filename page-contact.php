@@ -18,9 +18,9 @@ get_header(); ?>
 				<div class="container-fluid container-xxl">
 					<div class="row">
 						
-						<div class="col-md-7 pb-5">
+						<div class="col-md-7 pb-5 pb-md-0">
 							<div class="d-flex">
-								<img class="img-fluid mr-4" style="height: 150px;" src="/wp-content/themes/hopecommunity/static/images/logo-contact.svg" alt="Hope Community Projects Logo">
+								<img class="img-fluid mr-4 mr-md-6" style="height: 100px;" src="/wp-content/themes/hopecommunity/static/images/logo-contact.svg" alt="Hope Community Projects Logo">
 								<div>
 									<?php the_title( '<h3 class="h6">', '</h3>' ); ?>
 									<?php the_content(); ?>
