@@ -11,6 +11,7 @@ node_modules
 *.swp
 *.vi
 *.zip
+*.codekit3
 
 # OS or Editor folders
 ._*
