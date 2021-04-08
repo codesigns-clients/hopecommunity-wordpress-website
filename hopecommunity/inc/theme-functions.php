@@ -19,8 +19,10 @@ function default_scripts() {
 
 	wp_enqueue_script('jquery');
 	
-	wp_enqueue_script('popper-js', get_template_directory_uri() . '/static/vendor/popper/popper.min.js', '', '1.16.0', true);
-	wp_enqueue_script('bootstrap-js', get_template_directory_uri() . '/static/vendor/bootstrap/4.5.0/js/bootstrap.min.js', '', '4.5.0', true);
+	wp_enqueue_script('bootstrap-bundle-min', get_template_directory_uri() . '/static/vendor/bootstrap/4.6.0/js/bootstrap.bundle.min.js', '', '4.6.0', true);
+
+	#wp_enqueue_script('popper-js', get_template_directory_uri() . '/static/vendor/popper/popper.min.js', '', '1.16.0', true);
+	#wp_enqueue_script('bootstrap-js', get_template_directory_uri() . '/static/vendor/bootstrap/4.6.0/js/bootstrap.min.js', '', '4.5.0', true);
 
 	#wp_enqueue_script('slick', get_template_directory_uri() . '/static/vendor/slick-slider/1.8.1/slick/slick.js', '', '1.8.1', true);
 	wp_enqueue_script('custom-scripts', get_template_directory_uri() . '/static/js/scripts.js', '', '1.0.0', true);

@@ -8,7 +8,7 @@
 get_header();
 ?>
 
-<main class="main main--single">
+<main class="site-main site-main--single">
 
 	<section class="page-header-section">
 		<div class="page-header page-header-default bg-primary page-header-xs">
@@ -55,6 +55,7 @@ get_header();
 	</div>
 
 </main>
+<!-- end: // main -->
 
 <?php
 get_footer();

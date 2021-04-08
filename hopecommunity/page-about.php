@@ -61,26 +61,26 @@ get_header(); ?>
 								
 								<div class="col-12 mb-4">
 									<div class="card">
-										<div class="card-body">
-											<h6 class="card-title"><?php the_field('projects_box_one_title'); ?></h6>
+										<div class="card-body p-4 p-md-5">
+											<h5 class="card-title"><?php the_field('projects_box_one_title'); ?></h5>
 											<?php the_field('projects_box_one'); ?>
 										</div>
 									</div>
 								</div>
 
 								<div class="col-md-6 mb-4 mb-md-0">
-									<div class="card shadow h-100">
-										<div class="card-body bg-blue text-white">
-											<h6 class="card-title"><?php the_field('projects_box_two_title'); ?></h6>
+									<div class="card h-100">
+										<div class="card-body bg-blue text-white p-4 p-md-5">
+											<h5 class="card-title"><?php the_field('projects_box_two_title'); ?></h5>
 											<?php the_field('projects_box_two'); ?>
 										</div>
 									</div>
 								</div>
 
 								<div class="col-md-6">
-									<div class="card shadow h-100">
-										<div class="card-body bg-blue text-white">
-											<h6 class="card-title"><?php the_field('projects_box_three_title'); ?></h6>
+									<div class="card h-100">
+										<div class="card-body bg-blue text-white p-4 p-md-5">
+											<h5 class="card-title"><?php the_field('projects_box_three_title'); ?></h5>
 											<?php the_field('projects_box_three'); ?>
 										</div>
 									</div>
@@ -105,7 +105,7 @@ get_header(); ?>
 								src="/wp-content/themes/hopecommunity/static/images/logo.svg"
 								alt="Hope Community Projects Logo">
 							<h2 class="h4"><?php the_field('team_title'); ?></h2>
-							<div class="sep bg-red"></div>
+							<div class="sep bg-orange"></div>
 							<?php the_field('team_content'); ?>
 						</div>
 					</div>

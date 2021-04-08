@@ -8,8 +8,7 @@
 get_header(); ?>
 <?php while ( have_posts() ) : the_post(); ?>
 
-<main class="main">
-
+<main class="site-main site-main--sitemap">
 
 	<div class="main-content" id="main-content">
 
@@ -62,7 +61,9 @@ get_header(); ?>
 		</div>
 		
 	</div>
+
 </main>
+<!-- end: // main -->
 
 <?php endwhile;
 get_footer();

@@ -8,7 +8,7 @@
 get_header();
 ?>
 
-<main class="main main--single--portfolio">
+<main class="site-main site-main--single--userform">
 
 	<?php get_template_part('inc/components/page-header'); ?>
 
@@ -35,6 +35,7 @@ get_header();
 	</div>
 
 </main>
+<!-- end: // main -->
 
 <?php
 get_footer();

@@ -1,10 +1,17 @@
+// 1. CUSTOM VARIABLES 
+
 @import "theme/variables/variables";
 @import "theme/mixins/mixins";
+
+// 2. VENDOR FRAMEWORKS
+
 @import "vendor/vendor";
 
-/* Theme Styles */
+// 3. THEME
+
 @import "theme/theme";
 
-/* Custom Styles */
+// 3. CUSTOM / SITE 
+
 @import "custom/custom";
 @import "custom/plugin-overrides";

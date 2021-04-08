@@ -4,7 +4,7 @@
  */
 
 get_header(); ?>
-	<?php if ( have_posts() ) : ?>
+<?php if ( have_posts() ) : ?>
 	<main class="site-main site-main--page">
 
 		<?php
@@ -16,21 +16,24 @@ get_header(); ?>
 		?>
 
 		<div class="main-content" id="main-content">
-
+			
+			<?php while ( have_posts() ) : the_post(); ?>
 			<section class="section pt-3 pb-0">
 				<div class="container-fluid container-xxl">
 					<div class="row justify-content-center py-5">
-						<div class="col-lg-8 user-content">
-							<?php while ( have_posts() ) : the_post(); ?>
-								<?php the_content(); ?>
-							<?php endwhile; ?>
+						<div class="col-lg-8 user-content">				
+							<?php the_content(); ?>
 						</div>
 					</div>
 				</div>
 			</section>
+			<?php endwhile; ?>
 
 		</div>
+
 	</main>
-	<?php endif; ?>
+	<!-- end: // main -->
+	
+<?php endif; ?>
 <?php
 get_footer();

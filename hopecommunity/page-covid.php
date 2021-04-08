@@ -15,7 +15,7 @@ get_header(); ?>
 		<div class="main-content" id="main-content">
 
 			<!-- start: page-intro -->
-			<section class="section bg-light">
+			<section class="section">
 				<div class="container-fluid container-xxl">
 					<div class="row justify-content-center align-items-center">
 						<div class="col-md-6">
@@ -35,9 +35,9 @@ get_header(); ?>
 
 			<?php if( have_rows('coronavirus_boxes') ): ?>
 			<!-- start: coronovirus-advice -->
-			<section class="section pb-0">
+			<section class="section bg-light">
 				<div class="container-fluid container-xxl">
-					<div class="row text-center mb-4">
+					<div class="row text-center mb-5">
 						<div class="col-12">
 							<h2 class="h4"><?php the_field('coronavirus_title'); ?></h2>
 						</div>
@@ -45,8 +45,8 @@ get_header(); ?>
 					<div class="row">				
 						<?php while( have_rows('coronavirus_boxes') ) : the_row(); ?>
 						<div class="col-md-6 mb-4">
-							<div class="card shadow h-100">
-								<div class="card-body">
+							<div class="card no-border h-100">
+								<div class="card-body p-4 p-md-5">
 									<h6 class="card-title"><?php the_sub_field('coronavirus_box_title'); ?></h6>
 									<?php the_sub_field('coronavirus_box_content'); ?>
 								</div>

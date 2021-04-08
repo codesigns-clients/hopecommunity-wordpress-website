@@ -4,7 +4,7 @@
  */
 
 get_header(); ?>
-	<?php if ( have_posts() ) : ?>
+<?php if ( have_posts() ) : ?>
 	
 	<main class="site-main site-main--archive">
 		
@@ -28,6 +28,8 @@ get_header(); ?>
 		
 		</div>
 	</main>
-	<?php endif; ?>
+	<!-- end: // main -->
+	
+<?php endif; ?>
 <?php
 get_footer();

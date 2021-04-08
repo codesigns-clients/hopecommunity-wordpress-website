@@ -36,7 +36,7 @@
 		<?php if(($type) == 'bg-image' ) : ?>style="background-image: url(<?php echo $image_url; ?>)"<?php endif; ?>>
 		<?php if(($overlay) == 'yes' ) : ?><div class="page-header-mask page-header-mask-<?php echo $overlay_value; ?>"></div><?php endif; ?>
 	</div>
-	<div class="page-header-title-box <?php echo $title_box; ?> py-5 mr-4 mr-lg-7 mt-n6">
+	<div class="page-header-title-box <?php echo $title_box; ?> py-4 py-md-5 mr-4 mr-lg-7 mt-n6">
 		<div class="container">
 			<div class="row">
 				<div class="col-12 text-center">
