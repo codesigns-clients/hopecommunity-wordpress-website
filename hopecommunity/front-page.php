@@ -14,16 +14,11 @@ get_header(); ?>
 				<div class="container-fluid container-xxl">
 					<div class="row">
 						<div class="col-12 col-md-7 pb-5" style="z-index:100">
-				
-							<h2 class="h1"><?php the_field('primary_title'); ?></h2>
-							<div class="lead">
-								<?php the_field('primary_content'); ?>
-							</div>
-						
+							<h2 class="h3"><?php the_field('primary_title'); ?></h2>
+							<?php the_field('primary_content'); ?>
 							<a href="/about/" class="btn btn-lg no-border no-border-radius btn-with-arrow btn-orange text-white text-uppercase">
 								<span>Find out more <i class="fal fa-arrow-right fa-xs"></i></span>
 							</a>
-						
 						</div>
 						<div class="col-12 col-md-5">
 							<figure class="mb-5">
@@ -106,19 +101,21 @@ get_header(); ?>
 
 				<div class="row align-items-center bg-blue mt-5">
 				
-					<div class="col-md-6 p-6 px-xxl-7 py-xxl-10 text-white order-1 order-md-0">
+					<div class="col-md-6 p-6 text-white order-1 order-md-0">
 						<h3>ABOUT HOPE COMMUNITY PROJECTS</h3>
-						<p>Hope Community Projects seek to offer practical support to enable opportunities for social interaction, a nursery, a holiday feeding programme, friendship, support and advice. Children and families are given the right support at the right time in the right way, by running a varied program of opportunities supporting people to build their capabilities, confidence, understanding and well-being.</p>						
+						<p>Hope Community Projects seek to offer practical support to enable opportunities for social interaction, a nursery, a holiday feeding programme, friendship, support and advice. Children and families are given the right support at the right time in the right way, by running a varied program of opportunities supporting people to build their capabilities, confidence, understanding and well-being.</p>
+						<p><a class="btn btn-outline-white btn-lg no-border-radius" href="/about" title="About Hope Community Projects">Learn more</a></p>
 					</div>
-					<div class="col-md-6 bg-cover order-0 order-md-1" style="min-height:530px; background-image:url('/wp-content/uploads/2021/01/home-hope-nursery.jpg')"></div>
+					<div class="col-md-6 bg-cover order-0 order-md-1" style="min-height:530px; background-image:url('/wp-content/uploads/2021/04/home-hope-nursery-large.jpg'); background-size:cover; background-repeat:no-repeat;"></div>
 				
 				</div>
 				
 				<div class="row align-items-center bg-blue ">
-					<div class="col-md-6 bg-cover" style="min-height:530px; background-image:url('/wp-content/uploads/2021/01/home-about-hope.jpg')"></div>
-					<div class="col-md-6 p-6 px-xxl-7 py-xxl-10 text-white">
+					<div class="col-md-6 bg-cover" style="min-height:530px; background-image:url('/wp-content/uploads/2021/04/home-about-hope-large.jpg'); background-size:cover; background-repeat:no-repeat;"></div>
+					<div class="col-md-6 p-6 text-white">
 						<h3>GRUBHUB</h3>
 						<p>We believe that early intervention and excellent affordable accessible childcare forms the foundation for a good start in life. Every child and family member irrespective of ethnicity, wealth, health or ability deserve to live their best life.</p>
+						<p><a class="btn btn-outline-white btn-lg no-border-radius" href="/grubhub" title="Hope Community GrubHub">Learn more</a></p>
 					</div>
 				</div>
 			</section>

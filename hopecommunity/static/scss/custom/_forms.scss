@@ -1,5 +1,3 @@
-@import "../vendor/vendor";
-
 .contact-form-wrapper {
 	input,
 	textarea {
@@ -16,7 +14,7 @@
 		button {
 			border: 0 !important;
 			text-transform: uppercase;
-			background-color: #F7941D;
+			background-color: $orange;
 			color: #fff;
 			border-radius: 0;
 			@extend .btn;

@@ -1,0 +1,15 @@
+{
+  "name": "hopecommunity",
+  "version": "1.0.0",
+  "description": "WordPress Theme for Hope Community",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mark Salt",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "4.6.0",
+    "headroom.js": "0.12.0",
+    "jquery": "^3.6.0"
+  }
+}

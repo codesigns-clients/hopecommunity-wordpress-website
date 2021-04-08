@@ -3,17 +3,6 @@
 @import "grubhub";
 @import "footer";
 
-.container-xxl {
-	max-width: 1400px;
-}
-
-@include bp (sm) {
-	.container-fluid {
-		padding-left: 2rem;
-		padding-right: 2rem;
-	}
-}
-
 .no-border {
 	border: 0 !important;
 	&-radius {
@@ -24,8 +13,6 @@
 .card {
 	@extend .no-border;
 }
-
-
 
 .sep {
     width: 50px;
