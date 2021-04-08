@@ -4,7 +4,7 @@
 
 			<div class="card card--transparent mb-4 p-4 d-sm-flex flex-sm-row justify-content-sm-between align-items-sm-center footer-brand text-center text-sm-left">
 				<a href="/" title="Hope Community Projects Coventry"> 
-					<img class="img-fluid mb-4 footer-logo" src="/wp-content/themes/hopecommunity/static/images/logo-white.svg" alt="Hope Community Projects Logo">
+					<img class="img-fluid mb-4 footer-logo" src="/wp-content/themes/hopecommunity/assets/images/logo-white.svg" alt="Hope Community Projects Logo">
 				</a>
 				<div class="footer-contact ">
 					<h3 class="h4 mb-4">Contact us:</h3>

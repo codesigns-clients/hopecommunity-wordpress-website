@@ -37,7 +37,7 @@ add_action( 'after_setup_theme', 'custom_theme_setup' );
 
 /** Admin Login Logo */
 function custom_login_logo() {
-	$image_url = get_template_directory_uri() . '/static/images/logo.svg'; // URL of LOGO
+	$image_url = get_template_directory_uri() . '/assets/images/logo.svg'; // URL of LOGO
 	echo '
 		<style>
 			body {

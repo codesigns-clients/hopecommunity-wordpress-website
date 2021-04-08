@@ -55,7 +55,7 @@ get_header(); ?>
 					<div class="row justify-content-center text-center">
 						<div class="col-md-10 col-lg-8">
 							<img class="img-fluid section-logo mb-4"
-								src="/wp-content/themes/hopecommunity/static/images/logo.svg"
+								src="/wp-content/themes/hopecommunity/assets/images/logo.svg"
 								alt="Hope Community Projects Logo">
 							<h2 class="my-4 h4"><?php the_field('homepage_boxes_title'); ?></h2>
 							<div class="sep bg-blue"></div>
@@ -131,7 +131,7 @@ get_header(); ?>
 					<div class="row justify-content-center text-center">
 						<div class="col-md-10 col-lg-8">
 							<img class="img-fluid section-logo mb-4"
-								src="/wp-content/themes/hopecommunity/static/images/logo.svg"
+								src="/wp-content/themes/hopecommunity/assets/images/logo.svg"
 								alt="Hope Community Projects Logo">
 							<h2 class="h4">Hope Community Projects News</h2>
 							<?php the_field('news_intro_text'); ?>
