@@ -1,1 +1,0 @@
-This theme has been built for our customers bespoke websites and should not be used for any other purposes.
