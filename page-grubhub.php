@@ -26,7 +26,7 @@ get_header(); ?>
 						</div>
 					</div>
 					<div class="row">
-						<div class="col">
+						<div class="col-12">
 							<div class="pics-grid-grubhub">
 								<div class="pic pic1"></div>
 								<div class="pic pic2"></div>

@@ -1,68 +1,75 @@
 .pics-grid-grubhub {
 	font-size: 0;
-  }
-  .pics-grid-grubhub .pic {
-	display: inline-block;
-	margin: 3px;
-	background-repeat: no-repeat;
-	background-size: cover;
-  }
-  @media (max-width: 575px) {
-	.pics-grid-grubhub .pic {
-	  padding-top: calc((100%/3) - 6px);
+	.pic {
+		display: inline-block;
+		margin: 3px;
+		background-repeat: no-repeat;
+		background-size: cover;
+		@include bp-down (xs) {
+			padding-top: calc((100%/3) - 6px);
+		}
+		@include bp (sm) {
+			padding-top: calc(20% - 6px);
+		}
+		&.pic1 {
+			background-image: url('/wp-content/themes/hopecommunity/assets/images/grubhub-pic-1.jpg');
+			background-position: center center;
+			@include bp-down (xs) {
+				width: calc(((100%/3) * 2) - 6px);
+			}
+			@include bp (sm) {
+				width: calc(40% - 6px);
+			}
+		}
+		&.pic2 {
+			background-image: url('/wp-content/themes/hopecommunity/assets/images/grubhub-pic-2.jpg');
+			background-position: center center;
+			@include bp-down (xs) {
+				width: calc((100%/3) - 6px);
+			}
+			@include bp (sm) {
+				width: calc(20% - 6px);
+			}
+		}
+		&.pic3 {
+			background-image: url('/wp-content/themes/hopecommunity/assets/images/grubhub-pic-3.jpg');
+			background-position: center center;
+			@include bp-down (xs) {
+				width: calc((100%/3) - 6px);
+			}
+			@include bp (sm) {
+				width: calc(40% - 6px);
+			}
+		}
+		&.pic4 {
+			background-image: url('/wp-content/themes/hopecommunity/assets/images/grubhub-pic-4.jpg');
+			background-position: center center;
+			@include bp-down (xs) {
+				width: calc(((100%/3) * 2) - 6px);
+			}
+			@include bp (sm) {
+				width: calc(30% - 6px);
+			}
+		}
+		&.pic5 {
+			background-image: url('/wp-content/themes/hopecommunity/assets/images/grubhub-pic-5.jpg');
+			background-position: center center;
+			@include bp-down (xs) {
+				width: calc(((100%/3) * 2) - 6px);
+			}
+			@include bp (sm) {
+				width: calc(40% - 6px);
+			}
+		}
+		&.pic6 {
+			background-image: url('/wp-content/themes/hopecommunity/assets/images/grubhub-pic-6.jpg');
+			background-position: center center;
+			@include bp-down (xs) {
+				width: calc((100%/3) - 6px);
+			}
+			@include bp (sm) {
+				width: calc(30% - 6px);
+			}
+		}
 	}
-	.pics-grid-grubhub .pic.pic1 {
-	  width: calc(((100%/3) * 2) - 6px);
-	  background-image: url("/wp-content/themes/hopecommunity/static/images/grubhub-pic-1.jpg");
-	}
-	.pics-grid-grubhub .pic.pic2 {
-	  width: calc((100%/3) - 6px);
-	  background-image: url("/wp-content/themes/hopecommunity/static/images/grubhub-pic-2.jpg");
-	}
-	.pics-grid-grubhub .pic.pic3 {
-	  width: calc((100%/3) - 6px);
-	  background-image: url("/wp-content/themes/hopecommunity/static/images/grubhub-pic-3.jpg");
-	}
-	.pics-grid-grubhub .pic.pic4 {
-	  width: calc(((100%/3) * 2) - 6px);
-	  background-image: url("/wp-content/themes/hopecommunity/static/images/grubhub-pic-4.jpg");
-	}
-	.pics-grid-grubhub .pic.pic5 {
-	  width: calc(((100%/3) * 2) - 6px);
-	  background-image: url("/wp-content/themes/hopecommunity/static/images/grubhub-pic-5.jpg");
-	}
-	.pics-grid-grubhub .pic.pic6 {
-	  width: calc((100%/3) - 6px);
-	  background-image: url("/wp-content/themes/hopecommunity/static/images/grubhub-pic-6.jpg");
-	}
-  }
-  @media (min-width: 576px) {
-	.pics-grid-grubhub .pic {
-	  padding-top: calc(20% - 6px);
-	}
-	.pics-grid-grubhub .pic.pic1 {
-	  width: calc(40% - 6px);
-	  background-image: url("/wp-content/themes/hopecommunity/static/images/grubhub-pic-1.jpg");
-	  background-position: left top;
-	}
-	.pics-grid-grubhub .pic.pic2 {
-	  width: calc(20% - 6px);
-	  background-image: url("/wp-content/themes/hopecommunity/static/images/grubhub-pic-2.jpg");
-	}
-	.pics-grid-grubhub .pic.pic3 {
-	  width: calc(40% - 6px);
-	  background-image: url("/wp-content/themes/hopecommunity/static/images/grubhub-pic-3.jpg");
-	}
-	.pics-grid-grubhub .pic.pic4 {
-	  width: calc(30% - 6px);
-	  background-image: url("/wp-content/themes/hopecommunity/static/images/grubhub-pic-4.jpg");
-	}
-	.pics-grid-grubhub .pic.pic5 {
-	  width: calc(40% - 6px);
-	  background-image: url("/wp-content/themes/hopecommunity/static/images/grubhub-pic-5.jpg");
-	}
-	.pics-grid-grubhub .pic.pic6 {
-	  width: calc(30% - 6px);
-	  background-image: url("/wp-content/themes/hopecommunity/static/images/grubhub-pic-6.jpg");
-	}
-  }
+}
