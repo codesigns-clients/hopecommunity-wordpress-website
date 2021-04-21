@@ -1,3 +1,4 @@
+<!-- start: section-wide-with-background -->
 <section class="section section-sm bg-<?php the_field('wide_section_colour'); ?>">
 	<div class="container-fluid container-xxl">
 		<div class="row justify-content-center text-white">
@@ -12,3 +13,4 @@
 		</div>
 	</div>
 </section>
+<!-- // end: section-wide-with-background -->

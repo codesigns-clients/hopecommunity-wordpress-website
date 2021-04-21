@@ -3,6 +3,27 @@
 @import "grubhub";
 @import "footer";
 
+.figure-img-fluid img {
+    max-width: 100%;
+    height: auto;
+}
+
+.homepage-box-image {
+	min-height: 400px;
+	background-size: cover; 
+	background-repeat: no-repeat;
+	background-position: center;
+	@include bp (md) {
+		min-height: 720px;
+	}
+	@include bp (lg) {
+		min-height: 590px;
+	}
+	@include bp (xl) {
+		min-height: 540px;
+	}
+}
+
 .no-border {
 	border: 0 !important;
 	&-radius {

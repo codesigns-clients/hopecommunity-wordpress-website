@@ -59,9 +59,11 @@ get_header(); ?>
 			<!-- // end: coronovirus-advice -->
 			<?php endif; ?>
 
-			<!-- start: donate -->
-			<?php get_template_part('inc/blocks/donate'); ?>
-			<!-- end //: donate -->
+			<?php
+				if( get_field('enable_donate') ) {
+					get_template_part('inc/blocks/donate');	
+				}
+			?>
 
 		</div>
 		<?php endwhile; ?>
