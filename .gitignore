@@ -1,5 +1,6 @@
-# Ignore node_modules folder
+# Ignore these items
 node_modules
+mix-manifest.json
 
 # Numerous always-ignore extensions
 *.diff
