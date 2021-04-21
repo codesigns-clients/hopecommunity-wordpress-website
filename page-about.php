@@ -31,10 +31,8 @@ get_header(); ?>
 				</div>
 			</section>
 			<!-- // end: page-intro -->
-
-			<!-- start: section-wide-with-background -->
+	
 			<?php get_template_part('inc/components/section-wide'); ?>
-			<!-- // end: section-wide-with-background -->
 			
 			<!-- start: about--our-projects -->
 			<section class="section">
@@ -43,9 +41,7 @@ get_header(); ?>
 					<div class="row mb-3">
 						<div class="col-12">
 							<div class="block-title text-center">
-								<img class="img-fluid section-logo mb-4"
-									src="/wp-content/themes/hopecommunity/assets/images/logo.svg"
-									alt="Hope Community Projects Logo">
+								<?php get_template_part('inc/blocks/section-logo'); ?>
 								<h2 class="h4"><?php the_field('project_boxes_title'); ?></h2>
 								<div class="sep bg-blue"></div>
 							</div>
@@ -95,13 +91,11 @@ get_header(); ?>
 			<!-- // end: about--our-projects -->
 			
 			<!-- start: about--the-charity-team -->
-			<section class="section bg-light pb-5">
+			<section class="section section-sm bg-light">
 				<div class="container-fluid container-xxl">
 					<div class="row justify-content-center text-center">
 						<div class="col-md-10 col-lg-8">
-							<img class="img-fluid section-logo mb-4"
-								src="/wp-content/themes/hopecommunity/assets/images/logo.svg"
-								alt="Hope Community Projects Logo">
+							<?php get_template_part('inc/blocks/section-logo'); ?>
 							<h2 class="h4"><?php the_field('team_title'); ?></h2>
 							<div class="sep bg-orange"></div>
 							<?php the_field('team_content'); ?>

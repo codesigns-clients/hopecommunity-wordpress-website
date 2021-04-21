@@ -25,9 +25,9 @@ get_header(); ?>
 								<img class="img-fluid d-block mx-auto mb-5 mb-md-0" src="<?php the_field('primary_image'); ?>" />
 							<?php endif; ?>
 						</div>
-						<div class="col-md-6 text-center text-lg-left">
-							<h1 class="h4 text-left d-none d-md-block"><?php the_field('primary_title'); ?></h1>
-							<h2 class="h5 mb-3 text-left d-none d-md-block"><?php the_field('primary_subtitle'); ?></h2>
+						<div class="col-md-6 text-center text-md-left">
+							<h1 class="h4 d-none d-md-block"><?php the_field('primary_title'); ?></h1>
+							<h2 class="h5 mb-3 d-none d-md-block"><?php the_field('primary_subtitle'); ?></h2>
 							<?php the_field('primary_content'); ?>
 						</div>
 					</div>
@@ -35,9 +35,11 @@ get_header(); ?>
 			</section>
 			<!-- // end: page-intro -->
 
-			<!-- start: donate -->
-			<?php get_template_part('inc/blocks/donate'); ?>
-			<!-- end //: donate -->
+			<?php
+				if( get_field('enable_donate') ) {
+					get_template_part('inc/blocks/donate');	
+				}
+			?>
 		
 		</div>
 		<?php endwhile; ?>

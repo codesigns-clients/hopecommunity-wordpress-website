@@ -20,13 +20,13 @@ get_header(); ?>
 					<div class="row justify-content-center text-center mb-5">
 						<div class="col-md-10 col-lg-8">
 							<img class="img-fluid section-logo mb-4" src="/wp-content/themes/hopecommunity/assets/images/logo-grubhub.svg" alt="Hope Community Projects Logo">
-							<h1 class="h4"><?php the_field('nursery_intro_title'); ?></h1>
-							<div class="sep bg-orange"></div>
-							<?php the_field('nursery_intro_content'); ?>
+							<h1 class="h4"><?php the_field('grubhub_intro_title'); ?></h1>
+							<div class="sep bg-green"></div>
+							<?php the_field('grubhub_intro_content'); ?>
 						</div>
 					</div>
 					<div class="row">
-						<div class="col">
+						<div class="col-12">
 							<div class="pics-grid-grubhub">
 								<div class="pic pic1"></div>
 								<div class="pic pic2"></div>
@@ -46,9 +46,9 @@ get_header(); ?>
 				<div class="container-fluid container-xxl">
 					<div class="row justify-content-center text-center">
 						<div class="col-md-10 col-lg-8">
-							<h2 class="h4"><?php the_field('nursery_second_title'); ?></h2>
-							<div class="sep bg-blue"></div>
-							<?php the_field('nursery_second_content'); ?>
+							<h2 class="h4"><?php the_field('grubhub_second_title'); ?></h2>
+							<div class="sep bg-orange"></div>
+							<?php the_field('grubhub_second_content'); ?>
 						</div>
 					</div>
 				</div>
@@ -60,14 +60,14 @@ get_header(); ?>
 			</section>
 
 			<!-- start: the-grubhub-promise -->
-			<section class="section">
+			<section class="section d-none">
 				<div class="container-fluid container-xxl">
 				
 					<div class="row justify-content-center text-center">
 						<div class="col-md-10 col-lg-8">
-							<h2 class="h4"><?php the_field('nursery_third_title'); ?></h2>
+							<h2 class="h4"><?php the_field('grubhub_third_title'); ?></h2>
 							<div class="sep bg-green"></div>
-							<?php the_field('nursery_third_content'); ?>
+							<?php the_field('grubhub_third_content'); ?>
 						</div>
 					</div>
 					
@@ -99,7 +99,7 @@ get_header(); ?>
 						<div class="col-md-10 col-lg-8">
 							<img class="img-fluid section-logo mb-4" src="/wp-content/themes/hopecommunity/assets/images/logo-grubhub.svg" alt="Hope Community Projects Logo">
 							<h2 class="h4"><?php the_field('team_title'); ?></h2>
-							<div class="sep bg-red"></div>
+							<div class="sep bg-blue"></div>
 							<?php the_field('team_content'); ?>
 						</div>
 					</div>
